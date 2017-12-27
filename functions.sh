@@ -31,23 +31,23 @@ jv_pg_pluie_dans_lheure() {
 
 	if [ $sum -eq 0 ]
 	then
-		say "$(jv_pg_gmail_lg no_data)"
+		say "$(jv_pg_pluie_lang no_data)"
 		return 0
 	fi
 	
 	if $has_rain && [ $iter_of_first_rain -eq 0 ]
 	then
-		say "$(jv_pg_gmail_lg already_raining)"
+		say "$(jv_pg_pluie_lang already_raining)"
 		return 0
 	fi
 	
 	if $has_rain
 	then
-		say "$(jv_pg_gmail_lg rain_in $((5*$iter_of_first_rain)))"
+		say "$(jv_pg_pluie_lang rain_in $((5*$iter_of_first_rain)))"
 		return 0
 	fi
 	
-	say "$(jv_pg_gmail_lg no_rain)"
+	say "$(jv_pg_pluie_lang no_rain)"
 	return 0
 
 }
