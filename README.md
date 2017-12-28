@@ -1,6 +1,6 @@
 ## Description
 Plugin pour Jarvis (https://openjarvis.com/) permettant de savoir si il va pleuvoir dans l'heure.
-Est basé sur le service de Météo France http://www.meteofrance.com/previsions-meteo-france/previsions-pluie
+Est basé sur le service de Météo France http://www.meteofrance.com/previsions-meteo-france/previsions-pluie. Ce service ne fonctionne que pour une partie de la France.
 Nécessite l'installation de `jq` pour parser les fichiers JSON.
 
 ## Usage
