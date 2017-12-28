@@ -1,22 +1,15 @@
- <!---
-IMPORTANT
-=========
-This README.md is displayed in the WebStore as well as within Jarvis app
-Please do not change the structure of this file
-Fill-in Description, Usage & Author sections
-Make sure to rename the [en] folder into the language code your plugin is written in (ex: fr, es, de, it...)
-For multi-language plugin:
-- clone the language directory and translate commands/functions.sh
-- optionally write the Description / Usage sections in several languages
--->
 ## Description
-Description of your Plugin
+Plugin pour Jarvis (https://openjarvis.com/) permettant de savoir si il va pleuvoir dans l'heure.
+Est basé sur le service de Météo France http://www.meteofrance.com/previsions-meteo-france/previsions-pluie
+Nécessite l'installation de `jq` pour parser les fichiers JSON.
 
 ## Usage
+Avant tout, vous devez configurer ce plugin en lui indiquant le code INSEE du lieu où vous voulez avoir la prédiction (attention, ce n'est *PAS* le code postal)
+
 ```
-You: example of how to trigger the command
-Jarvis: output from Jarvis
+Vous : Est-ce qu'il va pleuvoir ?
+Jarvis : Il va probablement pleuvoir dans approximativement 25 minutes.
 ```
 
 ## Author
-[your name](http://your.website)
+[Cqoicebordel](http://www.cqoicebordel.net)
